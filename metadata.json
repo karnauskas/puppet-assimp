@@ -1,6 +1,6 @@
 {
   "name": "nkts-assimp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "nkts",
   "summary": "Installs assimp library and Python bindings",
   "license": "Apache-2.0",
@@ -8,7 +8,24 @@
   "project_page": "https://github.com/nkts/puppet-assimp",
   "issues_url": "https://github.com/nkts/puppet-assimp/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"stankevich-python","version_requirement":">= 1.0.0"},
+    {"name":"camptocamp-archive", "version_requirement": ">= 0.8.1"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
   ]
 }
-
