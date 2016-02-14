@@ -18,4 +18,4 @@ task :validate do
 end
 
 desc "Run spec and validation tasks"
-task :default => [:spec, :validate]
+task :travis => [:validate, :list, :spec]

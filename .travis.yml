@@ -7,6 +7,6 @@ rvm:
 env:
   - PUPPET_VERSION=4.3.2
   - PUPPET_VERSION=3.8.6
-script: "bundle exec rake"
+script: "bundle exec rake travis"
 notifications:
   email: false
